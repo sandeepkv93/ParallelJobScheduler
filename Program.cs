@@ -19,7 +19,7 @@ Job jobG = new("G");
 Job jobH = new("H");
 jobE.ChildrenJobs.AddRange(new List<Job> { jobF, jobG, jobH });
 
-Job jobI = new Job("I");
+Job jobI = new("I");
 jobF.ChildrenJobs.Add(jobI);
 jobG.ChildrenJobs.Add(jobI);
 jobH.ChildrenJobs.Add(jobI);
